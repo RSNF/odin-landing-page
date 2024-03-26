@@ -96,3 +96,22 @@ figure figcaption {
     padding: 24px 256px 64px 256px;
     flex-wrap: wrap;
 }
+
+/* BLOCKQUOTE */
+
+.thor-blockquote {
+    background-color: #E5E7EB;
+    padding: 100px 448px 96px 448px;
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.thor-blockquote blockquote {
+    text-align: justify;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+}
