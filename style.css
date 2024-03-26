@@ -115,3 +115,35 @@ figure figcaption {
     font-weight: 250;
     font-style: italic;
 }
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 96px 256px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 48px 128px;
+    display: flex;
+}
+
+.call-to-action section {
+    flex: 1;
+}
+
+.call-to-action button {
+    width: 125px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 0px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.call-to-action h3,
+.call-to-action p {
+    margin: 0px;
+    text-wrap: nowrap;
+}
