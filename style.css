@@ -147,3 +147,12 @@ figure figcaption {
     margin: 0px;
     text-wrap: nowrap;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 48px 0px;
+}
