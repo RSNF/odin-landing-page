@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* HERO BANNER */
+
+.hero {
+    display: flex;
+    padding: 24px 256px 64px 256px;
+    gap: 64px;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.hero h1 {
+    margin: 0px;
+}
+
+.hero div {
+    display: flex;
+    gap: 64px;
+}
+
+.hero button {
+    width: 150px;
+    border-radius: 5px;
+    padding: 8px 0px;
+    background-color: #3882F6;
+    border-style: none;
+    font-weight: bold;
+}
+
+.hero img {
+    height: auto;
+    background-color: gray;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+header {
+    display: flex;
+    gap: 16px;
+}
+
+header h3 {
+    flex: 1;
+    margin: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* INFORMATION */
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+figure img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    font-size: 18px;
+    color: #4B5563;
+    text-wrap: wrap;
+    width: 175px;
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 256px 64px 256px;
+    flex-wrap: wrap;
+}
